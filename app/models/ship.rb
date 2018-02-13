@@ -13,5 +13,5 @@ class Ship
   def self.all
     ALL_SHIPZ
   end
-  
+
 end

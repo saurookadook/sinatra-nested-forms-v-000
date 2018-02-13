@@ -13,4 +13,7 @@ class Pirate
   def self.all
     ALL_PIRATEZ
   end
+
+  def self.clear
+    self.all.destroy_all
 end
