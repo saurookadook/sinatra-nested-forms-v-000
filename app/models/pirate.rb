@@ -4,9 +4,9 @@ class Pirate
   ALL_PIRATEZ = []
 
   def initialize(pirate_hash)
-    @name = name
-    @weight = weight
-    @height = height
+    @name = pirate_hash[:name]
+    @weight = pirate_hash[:weight]
+    @height = pirate_hash[:height]
     ALL_PIRATEZ << self
   end
 
