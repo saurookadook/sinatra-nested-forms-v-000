@@ -16,4 +16,6 @@ class Pirate
 
   def self.clear
     ALL_PIRATEZ.clear
+  end
+  
 end
