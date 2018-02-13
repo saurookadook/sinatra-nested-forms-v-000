@@ -14,8 +14,4 @@ class Pirate
     ALL_PIRATEZ
   end
 
-  def self.clear
-    self.all.clear
-  end
-
 end
