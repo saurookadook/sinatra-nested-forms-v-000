@@ -7,7 +7,7 @@ class Pirate
     @name = name
     @weight = weight
     @height = height
-    ALL_PIRATEZ = []
+    ALL_PIRATEZ << self
   end
 
   def self.all
