@@ -3,7 +3,7 @@ class Ship
 
   ALL_SHIPZ = []
 
-  def initialize(name, type, booty)
+  def initialize(ship_hash)
     @name = name
     @type = type
     @booty = booty
