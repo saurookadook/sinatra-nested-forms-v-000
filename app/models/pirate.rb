@@ -15,5 +15,5 @@ class Pirate
   end
 
   def self.clear
-    self.all.destroy_all
+    self.all.clear
 end
